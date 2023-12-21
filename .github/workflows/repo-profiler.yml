@@ -1,6 +1,6 @@
 on:
   repository_dispatch:
-    types: repo_profile_execution
+    types: pr
 jobs:
   profile:
     runs-on: ubuntu-22.04
